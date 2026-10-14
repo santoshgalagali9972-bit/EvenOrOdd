@@ -1,7 +1,7 @@
-from even_or_odd import evenandodd
+from evenorodd import even_odd
 
 def test_even():
-    assert evenandodd(18) == "The number is even"
+    assert even_odd(18) == "The number is even"
 
 def test_odd():
-    assert evenandodd(17) == "The number is odd"
+    assert even_odd(17) == "The number is odd"
